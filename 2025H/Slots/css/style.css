@@ -1,0 +1,90 @@
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+* {
+     -moz-box-sizing: border-box; 
+     -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+.ital {
+  font-family: 'bwhaastext56', Helvetica, Arial, sans-serif;
+}
+
+.pastschedule {
+    cursor:pointer;
+}
+
+.pastschedule:hover{
+color:#004949;
+}
+
+.past {
+display:none;
+}
+
+
+
+a:link {
+    text-decoration: none;
+    padding-bottom:1px;
+    color:#000;
+}
+
+a:visited {
+    text-decoration: none;
+    color:#000;
+}
+
+a:hover {
+    text-decoration: none;
+    color:#004949;
+}
+
+a:active {
+    text-decoration: none;
+    color:#000;
+}
+
+p {
+    display:inline;
+}
+
+body {
+    font-size: 5vw;
+    padding:10px;
+    font-family: 'bwhaastext55', Helvetica, Arial, sans-serif;
+    line-height:1.1em;
+}
+
+h4 {
+    font-size: 5vw;
+    padding:0;
+    font-family: 'bwhaastext55', Helvetica, Arial, sans-serif;
+    line-height:1.1em;
+}
+
+.tab {
+    margin-left:10vw;
+    display:block;
+}
+
+.tab2 {
+    margin-left:20vw;
+    display:block;
+}
+
+.patent {
+  position: fixed;
+  bottom: .1em;
+}
