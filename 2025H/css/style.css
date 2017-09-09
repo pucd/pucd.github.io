@@ -33,6 +33,17 @@ color:#004949;
 display:none;
 }
 
+.headlines{
+  cursor:pointer;
+}
+
+.headlines:hover{
+color:#004949;
+}
+
+.open {
+display:none;
+}
 
 
 a:link {
